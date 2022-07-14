@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE MENAGERIE</title>
+
+    <!--전체 CSS-->
+    <link rel="stylesheet" href="includes/header.css" />
+    <link rel="stylesheet" href="includes/footer.css" />
+    <link rel="stylesheet" href="css/login_style.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--includes js-->
+    <script src="includes/includs.js"></script>
+  </head>
+  <body>
+    <!-- header_Start -->
+    <div id="header"></div>
+
+    <!-- section_Start -->
+    <section>
+      <h3>로 그 인</h3>
+      <div class="loginForm_wrap">
+        <form id="form_Box">
+          <p>Welcome! THE MENAGERIE에 오신 것을 환영합니다.</p>
+          <ul>
+            <li>
+              <input
+                id="name"
+                type="text"
+                maxlength="20"
+                placeholder="아이디를 입력해 주세요."
+                required
+              />
+            </li>
+            <li>
+              <input
+                id="pw"
+                type="password"
+                placeholder="비밀번호를 입력해 주세요."
+                required
+              />
+            </li>
+          </ul>
+          <span class="checkWrap">
+            <input type="checkbox" id="user_2" />
+            <label for="user_2">아이디 저장</label>
+          </span>
+          <p class="btn_user_login">
+            <a class="btn_login" href="#">로그인</a>
+          </p>
+          <div class="login_btn_wrap">
+            <ul>
+              <li><a href="join.html">회원가입</a></li>
+              <li><a href="#">아이디 찾기</a></li>
+              <li><a href="#">비밀번호 찾기</a></li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer_Start -->
+
+    <div id="footer"></div>
+  </body>
+</html>

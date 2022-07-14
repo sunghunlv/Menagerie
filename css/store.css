@@ -1,0 +1,58 @@
+/*CSS_ 초기화*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #888888;
+}
+
+.wrap_70 {
+  width: 70%;
+  margin: auto;
+}
+
+/* article_cssStart */
+
+article {
+  overflow: hidden;
+  background-image: url(../img/store_ban.jpg);
+  background-size: cover;
+}
+
+article > div {
+  text-align: center;
+}
+
+article > div > h3 {
+  padding: 6% 0 3% 0;
+  font-size: 2em;
+}
+
+article > div > h3 + p {
+  padding-bottom: 5%;
+}
+
+/*location 부분*/
+.location {
+  display: block;
+  max-width: 1180px;
+  text-align: right;
+  margin: 0 auto;
+  padding-top: 38px;
+  color: #898989;
+  font-size: 12px;
+}
+
+.location span {
+  background: url(../img/icon_loc.png) right no-repeat;
+  margin-right: 8px;
+  padding-right: 15px;
+}

@@ -1,0 +1,222 @@
+/*CSS_ 초기화*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #888888;
+}
+
+.wrap_70 {
+  width: 70%;
+  margin: auto;
+}
+
+/* article */
+
+article {
+  background-color: #f5ecec;
+}
+
+#join {
+  max-width: 560px;
+  min-width: 560px;
+  margin: 0 auto;
+
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+#join h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#join_form {
+}
+
+/* 약관동의 */
+.join_agreement {
+  margin-bottom: 7%;
+}
+
+.join_agreement > h4 {
+  padding-bottom: 3%;
+}
+
+.agreement {
+}
+
+.agreement ul {
+  border-top: 1px solid #312e2b;
+  border-bottom: 1px solid #312e2b;
+  padding: 1% 8%;
+}
+
+.agreement li {
+  height: 30px;
+}
+
+.agreement label {
+  cursor: pointer;
+}
+
+.agreement a {
+  width: 100px;
+  height: 30px;
+  border: solid 1px #c9c9c9;
+  font-size: 13px;
+  line-height: 2.3076;
+  text-align: center;
+}
+
+.agreement_p {
+  text-align: center;
+  padding-top: 1%;
+}
+
+/*필수정보입력*/
+
+.join_info {
+  margin-bottom: 50px;
+}
+
+.join_info > h4 {
+  border-bottom: 1px solid #312e2b;
+  padding-bottom: 3%;
+}
+
+.info_content {
+  padding-top: 5%;
+}
+
+.info_content ul {
+}
+
+.info_content li {
+}
+
+.info_input {
+  height: 55px;
+}
+
+.label {
+  float: left;
+  font-size: 13px;
+}
+
+.label_content {
+  width: 80%;
+  float: right;
+}
+
+#tel_input {
+}
+
+#tel_input .tel {
+}
+
+.info_input input,
+#mPhone1,
+#email03 {
+  width: 93%;
+  height: 40px;
+  border: none;
+  padding: 0 2%;
+  background-color: #fbdbdb;
+}
+
+.info_input input::placeholder {
+  opacity: 0.6;
+}
+
+#mPhone1,
+#mPhone2,
+#mPhone3 {
+  width: 22%;
+}
+
+.e-mail {
+  width: 80%;
+}
+
+#email01 {
+  width: 24%;
+  float: left;
+}
+
+#email02 {
+  width: 19%;
+  margin: 0 2%;
+  float: left;
+}
+
+#email03 {
+  width: 32%;
+  float: left;
+}
+
+.addr {
+  height: 100%;
+}
+
+.addr > label {
+  width: 20%;
+}
+
+.zip-code {
+  margin-bottom: 1%;
+}
+
+#sample4_postcode {
+  width: 95px;
+}
+
+#zip-code-btn {
+  height: 40px;
+  width: 95px;
+  border: solid 1px #dedede;
+  text-align: center;
+  line-height: 40px;
+}
+
+.address--road {
+  margin-bottom: 5px;
+}
+.join_button {
+  text-align: center;
+}
+
+.submitBtn,
+.resetBtn {
+  width: 20%;
+  height: 45px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
+  border: none;
+}
+
+.submitBtn {
+  background: #84ddaa;
+}
+
+.resetBtn {
+  margin-left: 20px;
+  background: #808080;
+}
+
+.submitBtn:hover {
+  background-color: #2f80ed;
+}
+
+.resetBtn:hover {
+  background-color: #222;
+}

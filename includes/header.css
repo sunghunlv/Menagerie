@@ -1,0 +1,143 @@
+/* header_cssStart */
+
+header {
+  overflow: hidden;
+}
+
+header > div#gnb {
+}
+
+header > div#gnb > ul {
+  float: right;
+}
+
+header > div#gnb > ul > li {
+  float: left;
+  width: 100px;
+  position: relative;
+}
+
+header > div#gnb > ul > li > a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  color: #333333;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+header > div#gnb > ul > li:hover > a {
+  background-color: #b4cee0;
+  color: white;
+}
+
+header > div#gnb > ul > li > ul {
+  position: absolute;
+  width: 100px;
+  height: 0;
+  overflow: hidden;
+  transition: all 1s;
+}
+
+header > div#gnb > ul > li:hover > ul {
+  height: 84px;
+}
+
+header > div#gnb > ul > li > ul > li {
+}
+
+header > div#gnb > ul > li > ul > li > a {
+  color: #333333;
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  padding: 5px 0;
+  transition: all 0.5s;
+}
+
+header > div#gnb > ul > li > ul > li:hover > a {
+  background-color: #8796b3;
+  color: white;
+  font-weight: bold;
+}
+
+header > h1 {
+  text-align: center;
+  clear: both;
+}
+
+header > h1 > a {
+}
+
+header > h1 > a > img {
+  width: 8%;
+  height: 8%;
+}
+
+/*nav_cssStart */
+
+nav {
+  overflow: hidden;
+  background-color: #d4f5f6;
+}
+
+nav > ul {
+  width: 80%;
+  margin: auto;
+}
+
+nav > ul > li {
+  text-align: center;
+  float: left;
+  width: 20%;
+  padding: 20px 0;
+}
+
+nav > ul > li > a {
+  font-size: 12px;
+}
+
+/*nav_hover cssStart부분*/
+
+nav > ul > li {
+  position: relative;
+  display: inline-block;
+  color: #4c4c4d;
+}
+
+nav > ul > li:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #373738;
+  transform: scale3d(0, 1, 1);
+  transition: transform 0.3s;
+}
+
+nav > ul > li:hover:after {
+  transform: scale3d(0.5, 1, 0.5);
+}
+
+nav > ul > li:hover a {
+  color: #9a8be0;
+  font-weight: bold;
+}
+
+.complete a {
+  border: 1px dashed red;
+}
+
+@media screen and (max-width: 515px) {
+  nav > ul {
+    width: 90%;
+  }
+
+  header > h1 > a > img {
+    width: 16%;
+    height: 8%;
+  }
+}
